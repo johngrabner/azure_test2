@@ -1,0 +1,17 @@
+{
+    "name": "app-service-hello-world",
+    "description": "Simple test of Azure packages",
+    "version": "0.0.1",
+    "private": true,
+    "license": "MIT",
+    "author": "Microsoft",
+    "engines": {
+        "node": ">=8.9.3"
+    },
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "purple_shared_enums_pic_pi": "git+https://github.com/johngrabner/purple_shared_enums_PIC_PI.git"
+    }
+}
