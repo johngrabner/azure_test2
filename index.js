@@ -1,11 +1,11 @@
 var http = require('http');
 
-const jjg = require("purple_shared_enums_pic_pi")
+const jjg = require("azure_dependency")
 
 var server = http.createServer(function(request, response) {
-    let x = jjg.SPI_heartbeat_inteval_in_ms
+    let x = jjg
     response.writeHead(200, {"Content-Type": "text/plain"});
-    response.end("Hello World, x = " + x);
+    response.end("message is " + x);
 
 });
 

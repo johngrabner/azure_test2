@@ -12,6 +12,6 @@
         "start": "node index.js"
     },
     "dependencies": {
-        "purple_shared_enums_pic_pi": "git+https://github.com/johngrabner/purple_shared_enums_PIC_PI.git"
+        "azure_dependency": "git+https://github.com/johngrabner/azure_dependency.git"
     }
 }
